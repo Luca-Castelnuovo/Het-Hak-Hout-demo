@@ -1,5 +1,5 @@
 <?php require $_SERVER['DOCUMENT_ROOT'].'/includes/init.php'; ?>
-<?php echo page_header('Overlangbroek', 'wandelen'); ?>
+<?php echo page_header('Wandelen || Overlangbroek', 'wandelen'); ?>
 
 <div class="row">
     <div class="col s12">
