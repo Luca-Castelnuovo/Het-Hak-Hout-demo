@@ -23,6 +23,14 @@
 		"oAP": "/build/build",
 		"oF": 0
 		},
+	"/buizerd.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/buizerd.html",
+		"oF": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -215,7 +223,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/css/vendor/_animations.css",
+		"oAP": "/build/static/css/vendor/_animations.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -228,7 +236,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/css/vendor/_materialize.css",
+		"oAP": "/build/static/css/vendor/_materialize.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -241,6 +249,28 @@
 		"oAP": "/build/static/fonts/NationalPark-Thin.otf",
 		"oF": 0
 		},
+	"/static/images/Buizerd.jpg": {
+		"ft": 16384,
+		"iS": 126585,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/static/images/Buizerd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 90
+		},
+	"/static/images/Koolmees.jpg": {
+		"ft": 16384,
+		"iS": 124874,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/static/images/Koolmees.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 90
+		},
 	"/static/js/main.js": {
 		"bF": 0,
 		"ft": 64,
@@ -251,6 +281,14 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"/vogels.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/vogels.html",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -259,11 +297,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 574851206.94925702,
-	"displayValue": "OverlangBroek",
+	"displayValue": "OverLangbroek",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_magenta",
-	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 574874278.20928204
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1365,7 +1402,7 @@
 			},
 		"no-tabs": {
 			"active": 0,
-			"optionString": "{allowIndentationTabs: false}"
+			"optionString": ""
 			},
 		"no-template-curly-in-string": {
 			"active": 0,
@@ -2159,7 +2196,7 @@
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
 		"shouldRunCacheBuster": 1,
-		"shouldRunHTMLMinifier": 1
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2366,7 +2403,7 @@
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
