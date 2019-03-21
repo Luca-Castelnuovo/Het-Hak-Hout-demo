@@ -23,6 +23,30 @@
 		"oAP": "/build/build",
 		"oF": 0
 		},
+	"/includes/init.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/includes/init.php",
+		"oF": 0
+		},
+	"/includes/settings.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/includes/settings.php",
+		"oF": 0
+		},
+	"/includes/sql.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/includes/sql.php",
+		"oF": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
