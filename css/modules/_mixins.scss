@@ -1,0 +1,6 @@
+// @include padding(2px 4px 6px); --> padding: 2px 4px 6px;>
+@mixin padding($values...) {
+  @each $var in $values {
+    padding: #{$var};
+  }
+}

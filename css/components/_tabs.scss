@@ -1,0 +1,9 @@
+.tabs {
+    & .tab a {
+        color: rgba(122, 0, 54, 0.7) !important;
+    }
+
+    & .indicator {
+        background-color: $color_secundary !important;
+    }
+}

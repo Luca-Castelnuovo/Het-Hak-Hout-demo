@@ -1,0 +1,23 @@
+.bold {
+    font-weight: bold;
+}
+
+.transform {
+    &-uppercase {
+        text-transform: uppercase;
+    }
+}
+
+.width {
+    &-full {
+        width: 100%;
+    }
+}
+
+.margin {
+    &-top {
+        &-5 {
+            margin-top: 5px;
+        }
+    }
+}

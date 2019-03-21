@@ -1,0 +1,33 @@
+.color {
+    &-primary {
+        color: $color_primary !important;
+
+        &--background {
+            background-color: $color_primary !important;
+
+            &:hover:not(.nav-wrapper):not(.hover-disabled) {
+                background-color: $color_primary_darken !important;
+            }
+        }
+
+        &--border {
+            border-color: $color_primary !important;
+
+            &:hover:not(.hover-disabled) {
+                border-color: $color_primary_darken !important;
+            }
+        }
+    }
+
+    &-secondary {
+        color: $color_secundary !important;
+
+        &--background {
+            background-color: $color_secundary !important;
+
+            &:hover:not(.hover-disabled) {
+                background-color: $color_secundary_darken !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+.collection {
+    overflow: visible !important;
+
+    & .collection-item.avatar {
+        min-height: 0 !important;
+    }
+}

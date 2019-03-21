@@ -1,0 +1,19 @@
+/*********/
+/* Fonts */
+/*********/
+@font-face {
+    font-family: 'NationalPark';
+    font-display: 'optional';
+    src: url('/fonts/NationalPark-Thin.otf');
+}
+
+$font_family: NationalPark;
+
+/**********/
+/* Colors */
+/**********/
+$color_primary: #258e23;
+$color_primary_darken: darken($color_primary, 10%);
+
+$color_secundary: #7a0036;
+$color_secundary_darken: darken($color_secundary, 10%);
