@@ -3,7 +3,9 @@
 
 <?php
 
-while ($vogel = sql_select('vogels', 'id,name,img_url', true, false)->fetch_assoc()) {
+$vogels = sql_select('vogels', 'id,name,img_url', true, false);
+
+while ($vogel = $vogels->fetch_assoc()) {
     echo <<<HTML
     <div class="row">
         <div class="col s12 m3">
