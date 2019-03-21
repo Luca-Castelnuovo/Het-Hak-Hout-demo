@@ -1,6 +1,5 @@
 <?php require $_SERVER['DOCUMENT_ROOT'].'/includes/init.php'; ?>
-<?php $vogels = sql_select('vogels', 'id,name,img_url', true, false); ?>
-<?php echo page_header($vogels['name'] . ' || Overlangbroek', 'vogels'); ?>
+<?php echo page_header('Vogels || Overlangbroek', 'vogels'); ?>
 
 <div class="row">
     <div class="col s12">
@@ -10,6 +9,8 @@
 <div class="row animated fadeInUp delay-200ms">
 
 <?php
+
+$vogels = sql_select('vogels', 'id,name,img_url', true, false);
 
 while ($vogel = $vogels->fetch_assoc()) {
     echo <<<HTML

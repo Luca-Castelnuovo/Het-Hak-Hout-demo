@@ -1,11 +1,10 @@
 <?php require $_SERVER['DOCUMENT_ROOT'].'/includes/init.php'; ?>
-<?php echo page_header('VOGELNAAM || Overlangbroek', 'vogels'); ?>
-
 <?php
 $id = clean_data($_GET['id']);
 $vogel = sql_select('vogels', 'name,img_url,description', 'id = '.$id, true);
-
 ?>
+
+<?php echo page_header($vogel['name'].' || Overlangbroek', 'vogels'); ?>
 
 <div class="row animated fadeInUp delay-200ms">
     <!-- Phone -->
