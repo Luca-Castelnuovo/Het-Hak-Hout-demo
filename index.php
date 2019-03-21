@@ -1,5 +1,6 @@
 <?php require $_SERVER['DOCUMENT_ROOT'].'/includes/init.php'; ?>
 <?php echo page_header('Overlangbroek', 'home'); ?>
+
     <div class="row animated bounceInLeft delay-200ms">
         <div class="carousel carousel-slider">
             <a class="carousel-item" href="#one!"
@@ -37,4 +38,5 @@
             altijd sprake van 2 dorpen.
         </p>
     </div>
+
 <?php echo page_footer(); ?>

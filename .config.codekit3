@@ -333,12 +333,28 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"/vogel.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/vogel.php",
+		"oF": 0
+		},
 	"/vogels.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/vogels.php",
+		"oF": 0
+		},
+	"/wandelen.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/wandelen.php",
 		"oF": 0
 		}
 	},

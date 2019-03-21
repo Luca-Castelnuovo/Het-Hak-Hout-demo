@@ -1,7 +1,5 @@
-<?php require $_SERVER['DOCUMENT_ROOT'].'/includes/init.php'; ?> <?php echo
-page_header('Overlangbroek', 'vogels'); ?>
-
-
+<?php require $_SERVER['DOCUMENT_ROOT'].'/includes/init.php'; ?>
+<?php echo page_header('VOGELNAAM || Overlangbroek', 'vogels'); ?>
 
 <div class="row">
     <!-- Phone -->
