@@ -1,0 +1,2 @@
+"use strict";document.addEventListener("DOMContentLoaded",function(){var e=document.querySelectorAll(".sidenav");M.Sidenav.init(e,{edge:"right",draggable:!0}),e=document.querySelectorAll(".carousel"),M.Carousel.init(e,{fullWidth:!0,indicators:!0})});
+//# sourceMappingURL=main.js.map

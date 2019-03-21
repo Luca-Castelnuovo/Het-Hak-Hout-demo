@@ -308,7 +308,7 @@
 		"oAP": "/build/static/images/Buizerd2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 90
 		},
 	"/static/images/Koolmees.jpg": {
@@ -352,7 +352,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_magenta",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 574875801.244259
+	"lastBuiltDate": 574880394.57342803
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
