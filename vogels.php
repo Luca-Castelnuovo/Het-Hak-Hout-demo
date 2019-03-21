@@ -1,13 +1,14 @@
 <?php require $_SERVER['DOCUMENT_ROOT'].'/includes/init.php'; ?>
 <?php echo page_header('Vogels || Overlangbroek', 'vogels'); ?>
 
+<div class="row">
+
 <?php
 
 $vogels = sql_select('vogels', 'id,name,img_url', true, false);
 
 while ($vogel = $vogels->fetch_assoc()) {
     echo <<<HTML
-    <div class="row">
         <div class="col s12 m3">
             <a href="/vogels/{$vogel['id']}"
                 ><div class="card">
@@ -20,9 +21,10 @@ while ($vogel = $vogels->fetch_assoc()) {
                 </div>
             </a>
         </div>
-    </div>
 HTML;
 }
 ?>
+
+</div>
 
 <?php echo page_footer(); ?>
