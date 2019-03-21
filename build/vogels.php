@@ -1,7 +1,7 @@
 <?php require $_SERVER['DOCUMENT_ROOT'].'/includes/init.php'; ?>
 <?php echo page_header('Vogels || Overlangbroek', 'vogels'); ?>
 
-<div class="row">
+<div class="row animated fadeInUp delay-200ms">
 
 <?php
 

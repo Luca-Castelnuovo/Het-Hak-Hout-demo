@@ -7,7 +7,7 @@ $vogel = sql_select('vogels', 'name,img_url,description', 'id = '.$id, true);
 
 ?>
 
-<div class="row">
+<div class="row animated fadeInUp delay-200ms">
     <!-- Phone -->
     <div class="hide-on-med-and-up center">
         <div class="row">
