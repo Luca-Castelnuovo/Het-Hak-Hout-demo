@@ -31,6 +31,14 @@
 		"oAP": "/build/includes/init.php",
 		"oF": 0
 		},
+	"/includes/security.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/includes/security.php",
+		"oF": 0
+		},
 	"/includes/settings.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -47,12 +55,20 @@
 		"oAP": "/build/includes/sql.php",
 		"oF": 0
 		},
-	"/index.html": {
+	"/includes/template.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/index.html",
+		"oAP": "/build/includes/template.php",
+		"oF": 0
+		},
+	"/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/index.php",
 		"oF": 0
 		},
 	"/LICENSE": {
@@ -287,11 +303,11 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_magenta",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 574874278.20928204
+	"lastBuiltDate": 574875801.244259
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 0,
@@ -2328,7 +2344,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
-	"overrideExternalServerCSS": 0,
+	"overrideExternalServerCSS": 1,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules, .git, vendor, tmp",
 	"sourceFolderName": "source",
