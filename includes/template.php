@@ -96,6 +96,17 @@ function page_footer()
     <script src="https://cdn.lucacastelnuovo.nl/analytics.lucacastelnuovo.nl/js/dynamic/tracking.27.js?site_id=2"></script>
     <script src="https://cdn.lucacastelnuovo.nl/general/js/materialize.js"></script>
     <script src="/static/js/main.js"></script>
+
+    <script>
+    if ("serviceWorker" in navigator) {
+        if (!navigator.serviceWorker.controller) {
+        navigator.serviceWorker
+          .register("pwabuilder-sw.js", {
+            scope: "./"
+          });
+        }
+    }
+    </script>
 </body>
 </html>
 HTML;
