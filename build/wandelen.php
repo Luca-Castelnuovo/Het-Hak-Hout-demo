@@ -7,9 +7,7 @@
     </div>
 </div>
 <div class="row">
-    <div>
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Ixx-FFwD7xowUNCsyUJiLt5MLDf038Eq" width="640" height="480" class="animated fadeInUp delay-200ms"></iframe>
-    </div>
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Ixx-FFwD7xowUNCsyUJiLt5MLDf038Eq" width="640" height="480" class="animated fadeInUp delay-200ms"></iframe>
 </div>
 
 <?php echo page_footer(); ?>
