@@ -38,5 +38,5 @@
             altijd sprake van 2 dorpen.
         </p>
     </div>
-    
+
 <?php echo page_footer(); ?>
