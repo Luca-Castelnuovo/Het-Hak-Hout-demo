@@ -4,7 +4,7 @@
     <div class="row animated bounceInLeft delay-200ms">
         <div class="carousel carousel-slider">
             <a class="carousel-item" href="#one!"
-                ><img src="/static/images/Home0.jpg"
+                ><img src="/static/images/home0.jpg"
             /></a>
             <a class="carousel-item" href="#two!"
                 ><img src="https://lorempixel.com/800/400/nature/2"
