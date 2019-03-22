@@ -29,7 +29,7 @@ function page_header($title = 'Overlangbroek', $active_menu_item = 'home')
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta name="google" content="notranslate" />
-            <link rel="manifest" href="/manifest.json" />
+            <link rel="manifest" href="/site.webmanifest" />
             <title>{$title}</title>
 
             <!-- SEO -->
@@ -44,25 +44,9 @@ function page_header($title = 'Overlangbroek', $active_menu_item = 'home')
             />
 
             <!-- Icons -->
-            <link
-                rel="apple-touch-icon"
-                type="image/png"
-                sizes="180x180"
-                href="/images/icons/180.png"
-            />
-            <link
-                rel="icon"
-                type="image/png"
-                sizes="32x32"
-                href="/images/icons/32.png"
-            />
-            <link
-                rel="icon"
-                type="image/png"
-                sizes="16x16"
-                href="/images/icons/16
-          .png"
-            />
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
             <!-- Styles -->
             <link rel="stylesheet" href="/static/css/main.css" />
