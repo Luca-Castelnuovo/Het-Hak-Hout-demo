@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="row">
-        <h2 class="animated fadeInUp delay-200ms">Status</h2>
+        <h2 class="animated fadeInUp delay-200ms">Overlangbroek</h2>
         <p class="animated fadeInUp delay-600ms">
             Overlangbroek is een dorp in de provincie Utrecht,
             gemeente Wijk bij Duurstede. T/m 1995 gemeente
