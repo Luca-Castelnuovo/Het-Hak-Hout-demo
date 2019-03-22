@@ -7,13 +7,13 @@
                 ><img src="/static/images/home0.jpg"
             /></a>
             <a class="carousel-item" href="#two!"
-                ><img src="https://lorempixel.com/800/400/nature/2"
+                ><img src="/static/images/home1.jpg"
             /></a>
             <a class="carousel-item" href="#three!"
-                ><img src="https://lorempixel.com/800/400/nature/3"
+                ><img src="/static/images/home2.jpg"
             /></a>
             <a class="carousel-item" href="#four!"
-                ><img src="https://lorempixel.com/800/400/nature/4"
+                ><img src="/static/images/home3.jpg"
             /></a>
         </div>
     </div>
